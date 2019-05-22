@@ -6,6 +6,14 @@ public class example1{
                 sum+=j;
             }
         }
-        System.out.println(sum);
+        System.out.println("first method = "+sum);
+
+        int sum2 = 0;
+        for(int i=1;i<=10;i++){
+            sum2 += i*(11-i);
+
+        }
+        System.out.println("second method = "+sum2);
     }
+
 }
