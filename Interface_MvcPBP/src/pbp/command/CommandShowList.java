@@ -1,16 +1,11 @@
 package pbp.command;
-
-import pbp.Model;
-import pbp.Viewer;
-import pbp.PBData;
+import pbp.*;
 
 public class CommandShowList implements CommandAble{
-
-	public static void main(String[] args) {
+	public void excute(Viewer viewer, Model model) {
 		// TODO Auto-generated method stub
 		PBData [] arrList = model.getList();
         viewer.showList(arrList);
-
 	}
 
 }

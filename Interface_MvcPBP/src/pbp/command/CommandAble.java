@@ -1,5 +1,7 @@
 package pbp.command;
+import pbp.*;
 
-public class CommandAble {
-
+public interface CommandAble {
+	public abstract void excute(Viewer viewer, Model model);
+		
 }
